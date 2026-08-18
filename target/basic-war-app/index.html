@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Java WAR App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Basic Java WAR App</h1>
+        <p>Enter your name to get a greeting from the backend.</p>
+
+        <form id="greeting-form">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" value="World">
+            <button type="submit">Send</button>
+        </form>
+
+        <div id="result" class="result" aria-live="polite">Waiting for a request...</div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
